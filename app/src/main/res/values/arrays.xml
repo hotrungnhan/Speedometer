@@ -5,13 +5,13 @@
         <item>Kilometers</item>
         <item>Miles</item>
     </string-array>
+    
     <string-array name="unit_values">
         <item>@string/km_value</item>
         <item>@string/miles_value</item>
     </string-array>
     <string name="km_value" translatable="false">km</string>
     <string name="miles_value" translatable="false">miles</string>
-
 
     <!--Theme-->
     <string-array name="themes">

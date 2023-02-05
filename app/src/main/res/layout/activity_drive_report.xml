@@ -36,11 +36,12 @@
         app:elevation="0dp"
         app:itemIconTint="@drawable/drive_report_bottom_navigation_view_color"
         app:itemTextColor="@drawable/drive_report_bottom_navigation_view_color"
-        app:menu="@menu/drive_report_nav"
         app:labelVisibilityMode="selected"
-        app:layout_constraintTop_toBottomOf="@id/appbar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appbar"
+        app:menu="@menu/drive_report_nav" />
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragNavHost"

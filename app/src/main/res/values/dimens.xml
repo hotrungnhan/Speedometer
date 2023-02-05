@@ -8,6 +8,5 @@
     <dimen name="margin_small">8dp</dimen>
     <dimen name="padding">12dp</dimen>
     <dimen name="padding_small">8dp</dimen>
-
     <dimen name="bottom_sheet_peek_height">58dp</dimen>
 </resources>

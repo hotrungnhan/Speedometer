@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/drive_report_bottom_nav_background.xml" value="0.11" />
+        <entry key="app/src/main/res/drawable/drive_report_bottom_navigation_view_color.xml" value="0.1005" />
+        <entry key="app/src/main/res/drawable/home_bottom_navigation_view_color.xml" value="0.1005" />
+        <entry key="app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.1005" />
+        <entry key="app/src/main/res/drawable/ic_baseline_flash_on_24.xml" value="0.1005" />
+        <entry key="app/src/main/res/drawable/ic_baseline_layers_24.xml" value="0.1005" />
+        <entry key="app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1005" />
+        <entry key="app/src/main/res/drawable/ic_baseline_timer_24.xml" value="0.1005" />
+        <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1005" />
+        <entry key="app/src/main/res/drawable/my_drive_background.xml" value="0.2195" />
+        <entry key="app/src/main/res/drawable/splash_drawable.xml" value="0.2195" />
+        <entry key="app/src/main/res/layout/activity_compare.xml" value="0.11730072463768115" />
+        <entry key="app/src/main/res/layout/activity_drive_report.xml" value="0.11" />
+        <entry key="app/src/main/res/layout/activity_fragment_host.xml" value="0.11730072463768115" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/activity_location_permission_check.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/fragment_compare_drive.xml" value="0.13728470111448834" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_drive_analytics.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_drive_map_view.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_drive_rank.xml" value="0.11730072463768115" />
+        <entry key="app/src/main/res/layout/fragment_my_all_drives.xml" value="0.21557971014492755" />
+        <entry key="app/src/main/res/layout/fragment_my_drives.xml" value="0.11" />
+        <entry key="app/src/main/res/layout/item_drive.xml" value="0.21557971014492755" />
+        <entry key="app/src/main/res/layout/item_drive_rank.xml" value="0.11" />
+        <entry key="app/src/main/res/layout/item_drive_with_map.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/item_view_all.xml" value="0.21557971014492755" />
+        <entry key="app/src/main/res/layout/view_empty.xml" value="0.11730072463768115" />
+        <entry key="app/src/main/res/layout/view_rate_app.xml" value="0.21557971014492755" />
+        <entry key="app/src/main/res/menu/bottom_nav.xml" value="0.11" />
+        <entry key="app/src/main/res/menu/drive_report_nav.xml" value="0.1" />
+        <entry key="app/src/main/res/xml/preferences.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

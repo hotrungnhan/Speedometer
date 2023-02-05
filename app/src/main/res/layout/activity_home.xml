@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:context=".ui.home.HomeActivity">
-
-    <com.bike.race.customs.textViews.DigitalTextView
+    <com.hotrungnhan.speedometer.customs.textViews.DigitalTextView
         android:id="@+id/pipTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

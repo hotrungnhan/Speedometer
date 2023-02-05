@@ -66,8 +66,6 @@
 
     <!-- Non translatable -->
     <string name="ok" translatable="false">OK</string>
-    <string name="share_app" translatable="false">Check out this speedometer app https://play.google.com/store/apps/details?id=com.topsed.race</string>
-    <string name="app_link" translatable="false">https://play.google.com/store/apps/details?id=com.topsed.race</string>
 
     <!-- Transition ids Start    -->
     <string name="transition_trip_detail" translatable="false">trip_detail</string>
@@ -75,5 +73,6 @@
     <string name="change">Change</string>
     <string name="name_this_ride">Name this Ride</string>
     <string name="unnamed">(Unnamed)</string>
+    
     <!-- Transition ids Ends    -->
 </resources>

@@ -9,11 +9,11 @@ android {
     compileSdkVersion 32
     buildToolsVersion "30.0.3"
     defaultConfig {
-        applicationId "com.topsed.race"
+        applicationId "com.hotrungnhan.speedometer"
         minSdkVersion 24
         targetSdkVersion 32
-        versionCode 89
-        versionName "4.8"
+        versionCode 10
+        versionName "10"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
         Properties properties = new Properties()
@@ -21,7 +21,7 @@ android {
             properties.load(propertiesFile.newDataInputStream())
         }
 
-        resValue "string", "google_maps_key", properties.getProperty("GOOGLE_MAPS_API_KEY", "")
+        resValue "string", "google_maps_key", properties.getProperty("GOOGLE_MAPS_API_KEY", "AIzaSyBVWpu2fya-T7OpNSuFheFxe32Nc_eXvVg")
     }
 
     buildFeatures {
@@ -33,7 +33,6 @@ android {
             minifyEnabled false
             shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), "proguard-rules.pro"
-            versionNameSuffix "-debug"
         }
         release {
             minifyEnabled true

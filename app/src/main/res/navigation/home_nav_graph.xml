@@ -6,19 +6,19 @@
 
     <fragment
         android:id="@+id/nav_dashboard"
-        android:name="com.bike.race.ui.dashboard.DashboardFragment"
+        android:name="com.hotrungnhan.speedometer.ui.dashboard.DashboardFragment"
         android:label="Dashboard"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/nav_my_drives"
-        android:name="com.bike.race.ui.mydrive.MyDrivesFragment"
+        android:name="com.hotrungnhan.speedometer.ui.mydrive.MyDrivesFragment"
         android:label="My Drives"
         tools:layout="@layout/fragment_my_drives" />
 
     <fragment
         android:id="@+id/nav_settings"
-        android:name="com.bike.race.ui.settings.MySettingsFragment"
+        android:name="com.hotrungnhan.speedometer.ui.settings.MySettingsFragment"
         android:label="Settings" />
 
 </navigation>

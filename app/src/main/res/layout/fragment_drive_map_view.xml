@@ -52,7 +52,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
-        <com.bike.race.customs.DonutProgress
+        <com.hotrungnhan.speedometer.customs.DonutProgress
             android:id="@+id/topSpeedBar"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -87,7 +87,7 @@
             android:orientation="vertical"
             app:layout_constraintGuide_percent="0.5" />
 
-        <com.bike.race.customs.DonutProgress
+        <com.hotrungnhan.speedometer.customs.DonutProgress
             android:id="@+id/avgSpeedBar"
             android:layout_width="0dp"
             android:layout_height="0dp"

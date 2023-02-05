@@ -56,5 +56,5 @@
  public static <fields>;
  }
 
- -keep class com.bike.race.uiModels.** { *; }
+ -keep class com.hotrungnhan.speedometer.uiModels.** { *; }
  -dontwarn com.bike.race.uiModels.**
