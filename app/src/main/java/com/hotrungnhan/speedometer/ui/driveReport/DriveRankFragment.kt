@@ -59,6 +59,4 @@ class DriveRankFragment : Fragment() {
             }
         }
     }
-
-
 }

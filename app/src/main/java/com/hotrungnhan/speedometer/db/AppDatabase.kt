@@ -61,7 +61,7 @@ abstract class AppDatabase : RoomDatabase() {
         }
 
         private fun buildDatabase(context: Context) =
-            Room.databaseBuilder(context, AppDatabase::class.java, "topsedv1.db")
+            Room.databaseBuilder(context, AppDatabase::class.java, "speedometer.db")
                 .addMigrations(migration12)
                 .addMigrations(migration23)
                 .addMigrations(migration34)

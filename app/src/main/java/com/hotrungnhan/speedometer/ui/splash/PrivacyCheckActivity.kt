@@ -42,48 +42,48 @@ class PrivacyCheckActivity : AppCompatActivity() {
                 continueHome()
             }
 
-            setupTermsAndConditionText(viewBinding.termsAndConditionText)
+//            setupTermsAndConditionText(viewBinding.termsAndConditionText)
         }
     }
 
     private fun setupTermsAndConditionText(termsAndConditionText: TextView) {
-        val message = getString(R.string.splash_continue)
-        val termsNCondition = getString(R.string.splash_terms_of_service)
-        val appender = getString(R.string.splash_and)
-        val privacyPolicy = getString(R.string.splash_privacy_policy)
-
-        val spanText = SpannableStringBuilder()
-        spanText.append(message)
-        spanText.append(" ")
-        spanText.append(termsNCondition)
-        spanText.setSpan(object : ClickableSpan() {
-            override fun onClick(widget: View) {
-                openTermsAndConditions()
-            }
-
-            override fun updateDrawState(ds: TextPaint) {
-                ds.color = ds.linkColor    // you can use custom color
-                ds.isUnderlineText = true    // this remove the underline
-            }
-        }, spanText.length - termsNCondition.length, spanText.length, 0)
-
-        spanText.append(" ")
-        spanText.append(appender)
-        spanText.append(" ")
-        spanText.append(privacyPolicy)
-        spanText.setSpan(object : ClickableSpan() {
-            override fun onClick(widget: View) {
-                openPrivacyPolicy()
-            }
-
-            override fun updateDrawState(textPaint: TextPaint) {
-                textPaint.color = textPaint.linkColor    // you can use custom color
-                textPaint.isUnderlineText = true    // this remove the underline
-            }
-        }, spanText.length - privacyPolicy.length, spanText.length, 0)
-
-        termsAndConditionText.movementMethod = LinkMovementMethod.getInstance()
-        termsAndConditionText.setText(spanText, TextView.BufferType.SPANNABLE)
+//        val message = getString(R.string.splash_continue)
+//        val termsNCondition = getString(R.string.splash_terms_of_service)
+//        val appender = getString(R.string.splash_and)
+//        val privacyPolicy = getString(R.string.splash_privacy_policy)
+//
+//        val spanText = SpannableStringBuilder()
+//        spanText.append(message)
+//        spanText.append(" ")
+//        spanText.append(termsNCondition)
+//        spanText.setSpan(object : ClickableSpan() {
+//            override fun onClick(widget: View) {
+//                openTermsAndConditions()
+//            }
+//
+//            override fun updateDrawState(ds: TextPaint) {
+//                ds.color = ds.linkColor    // you can use custom color
+//                ds.isUnderlineText = true    // this remove the underline
+//            }
+//        }, spanText.length - termsNCondition.length, spanText.length, 0)
+//
+//        spanText.append(" ")
+//        spanText.append(appender)
+//        spanText.append(" ")
+//        spanText.append(privacyPolicy)
+//        spanText.setSpan(object : ClickableSpan() {
+//            override fun onClick(widget: View) {
+//                openPrivacyPolicy()
+//            }
+//
+//            override fun updateDrawState(textPaint: TextPaint) {
+//                textPaint.color = textPaint.linkColor    // you can use custom color
+//                textPaint.isUnderlineText = true    // this remove the underline
+//            }
+//        }, spanText.length - privacyPolicy.length, spanText.length, 0)
+//
+//        termsAndConditionText.movementMethod = LinkMovementMethod.getInstance()
+//        termsAndConditionText.setText(spanText, TextView.BufferType.SPANNABLE)
     }
 
     private fun openPrivacyPolicy() {

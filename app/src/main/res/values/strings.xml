@@ -20,7 +20,7 @@
     <string name="need_your_bg_location_permission">App needs location permission to show your speed</string>
     <string name="we_will_not_store_any_of_your_data_and_adhering_to_our_privacy_agreement">App will not record your location when you stop the app.</string>
     <string name="all_allow">Allow</string>
-    <string name="welcome_to_app">Welcome to Topsed</string>
+    <string name="welcome_to_app">Welcome to Speedomater</string>
     <string name="welcome_caption">Speedometer and Driving Insights</string>
     <string name="view_all_btn"><u>View All</u></string>
     <string name="dashboard">Dashboard</string>
@@ -73,6 +73,6 @@
     <string name="change">Change</string>
     <string name="name_this_ride">Name this Ride</string>
     <string name="unnamed">(Unnamed)</string>
-    
+
     <!-- Transition ids Ends    -->
 </resources>

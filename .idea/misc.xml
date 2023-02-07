@@ -17,8 +17,8 @@
         <entry key="app/src/main/res/layout/activity_compare.xml" value="0.11730072463768115" />
         <entry key="app/src/main/res/layout/activity_drive_report.xml" value="0.11" />
         <entry key="app/src/main/res/layout/activity_fragment_host.xml" value="0.11730072463768115" />
-        <entry key="app/src/main/res/layout/activity_home.xml" value="0.125" />
-        <entry key="app/src/main/res/layout/activity_location_permission_check.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_location_permission_check.xml" value="0.18387499966192994" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.125" />
         <entry key="app/src/main/res/layout/fragment_compare_drive.xml" value="0.13728470111448834" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
@@ -33,7 +33,7 @@
         <entry key="app/src/main/res/layout/item_view_all.xml" value="0.21557971014492755" />
         <entry key="app/src/main/res/layout/view_empty.xml" value="0.11730072463768115" />
         <entry key="app/src/main/res/layout/view_rate_app.xml" value="0.21557971014492755" />
-        <entry key="app/src/main/res/menu/bottom_nav.xml" value="0.11" />
+        <entry key="app/src/main/res/menu/bottom_nav.xml" value="0.1" />
         <entry key="app/src/main/res/menu/drive_report_nav.xml" value="0.1" />
         <entry key="app/src/main/res/xml/preferences.xml" value="0.1" />
       </map>

@@ -11,7 +11,7 @@ class Main : Application() {
 
     override fun onCreate() {
         super.onCreate()
-
+        println("gooogle key: " + R.string.google_maps_key)
         startKoin {
             androidLogger(Level.ERROR)
             androidContext(this@Main)

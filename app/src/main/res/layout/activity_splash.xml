@@ -70,16 +70,15 @@
         android:layout_height="0dp"
         android:layout_weight="3" />
 
-    <TextView
-        android:id="@+id/termsAndConditionText"
-        style="@style/TextAppearance.AppCompat.Body2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_margin="@dimen/margin"
-        android:gravity="center"
-        tools:text="By continuing, you agreeing to Topsed App's Terms and Conditions and Privacy Policy" />
-
+<!--    <TextView-->
+<!--        android:id="@+id/termsAndConditionText"-->
+<!--        style="@style/TextAppearance.AppCompat.Body2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_margin="@dimen/margin"-->
+<!--        android:gravity="center"-->
+<!--        tools:text="By continuing, you agreeing to Speedometer App's Terms and Conditions and Privacy Policy" />-->
 
     <View
         android:layout_width="0dp"

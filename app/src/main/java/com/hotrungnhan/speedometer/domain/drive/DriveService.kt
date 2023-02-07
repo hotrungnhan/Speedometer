@@ -1,5 +1,6 @@
 package com.hotrungnhan.speedometer.domain.drive
 
+import android.util.Log
 import com.hotrungnhan.speedometer.components.LocationProvider
 import com.hotrungnhan.speedometer.domain.drive.currentDrive.CurrentDrive
 import com.hotrungnhan.speedometer.repositories.DriveRepository
@@ -39,6 +40,7 @@ class DriveService {
         currentDrive?.onStart()
         locationProvider.subscribe(
             locationChangeCallback = { currentLocation ->
+                Log.d("localtion provider", currentLocation.speed.toString())
                 currentDrive?.pingData(
                     locationTime = currentLocation.time,
                     currentLat = currentLocation.latitude,
